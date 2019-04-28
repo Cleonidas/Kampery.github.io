@@ -1,0 +1,86 @@
+body {
+	height: 100%;
+	font-family: "Mali";
+	background-color: #b300b3;
+	background-image: url("Imgs/tlo.png"); 
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	/* background:  url(https://media.giphy.com/media/wdsW2gMBz4sh2/giphy.gif) no-repeat center center fixed; 
+	background-size: cover; */
+}
+input{
+	margin-bottom: 20px;
+}
+img{
+	max-height: 175px;
+	min-height: 170px;
+
+}
+
+div{
+	color: aliceblue;
+	font-family: "Mali";
+	margin-top: 0.5%;
+}
+
+.Big{
+	font-size: 2rem;
+}
+
+.BigBold{
+	font-size: 2rem;
+	font-weight: 400;
+}
+.circle{
+	
+	
+	
+	border-radius: 50%;
+	border: 1px solid blue
+	
+}
+.circle:hover{
+	border-radius: 60%;
+	border: 2px solid green
+}
+.map{
+	width: 50%;
+	height: 50%
+}
+.modal-body
+{
+    background-color: #B987B7;
+}
+
+.modal-content
+{
+    background-color: #B987B7;
+}
+
+.modal-footer
+{
+    background-color: #B987B7;
+}
+
+.modal-header
+{
+	
+    background-color: #B987B7;
+}
+.modal-title{
+	text-align: Center;
+}
+/* .navbar-light .navbar-toggler {
+    color: #17061b;
+    border-color: #17061b;
+} */
+.navbar{
+	background: #38263d;
+}
+.navbar-nav.mr-auto.mt-2.mt-lg-0 li a{
+	color:white;
+	
+}
+
+
