@@ -13,10 +13,9 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i; //let lub const
-  var slides = document.getElementsByClassName("mySlides");
-  console.log(slides) 
+  var slides = document.getElementsByClassName("mySlides"); 
   var dots = document.getElementsByClassName("dot");
-  var slidesLenght = document.querySelectorAll("img").length-1;
+  var slidesLenght = 3;//document.querySelectorAll("img").length-1;
   if (n > slidesLenght) {slideIndex = 1} 
   if (n < 1) {slideIndex = slidesLenght}
   for (i = 0; i < slidesLenght; i++) {
